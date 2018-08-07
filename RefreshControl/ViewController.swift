@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         refresh.attributedTitle = NSAttributedString(string: "swife to refresh")
         refresh.addTarget(self, action: #selector(refreshSwipe), for: .valueChanged)
          myTB.addSubview(refresh)
+        
+        print("swift to add row in tableview")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
